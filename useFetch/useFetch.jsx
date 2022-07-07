@@ -35,7 +35,7 @@ export const useFetch = ( url ) => {
 
     useEffect(() => {
         getFetch();
-    }, []);
+    }, [url]);
     
     return {
         data: state.data,
